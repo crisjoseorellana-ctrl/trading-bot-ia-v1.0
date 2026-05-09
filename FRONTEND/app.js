@@ -1,7 +1,7 @@
 async function loadSignal() {
 
     const response = await fetch(
-        "https://tradingbotiav1.onrender.com/"
+        "https://onrender.com"
     )
 
     const data = await response.json()
